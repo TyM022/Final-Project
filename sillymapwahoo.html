@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d08933fc29c4c783b9470ce7217c81d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d08933fc29c4c783b9470ce7217c81d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d08933fc29c4c783b9470ce7217c81d3 = L.map(
+                "map_d08933fc29c4c783b9470ce7217c81d3",
+                {
+                    center: [40.44469232004855, -79.97173296851942],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_101c12238dfb4ebde26fa34a2c6bd186 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_101c12238dfb4ebde26fa34a2c6bd186.addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+            var circle_marker_738b1d4cbee9aea7bf4dec22de1b89c6 = L.circleMarker(
+                [40.4518731075, -80.00514471],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_47430268f5d36360c0c2f0a49bc9fb30 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd538cf5284fdbdb79e5f16bd7527900 = $(`<div id="html_cd538cf5284fdbdb79e5f16bd7527900" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Allegheny Center<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_47430268f5d36360c0c2f0a49bc9fb30.setContent(html_cd538cf5284fdbdb79e5f16bd7527900);
+            
+        
+
+        circle_marker_738b1d4cbee9aea7bf4dec22de1b89c6.bindPopup(popup_47430268f5d36360c0c2f0a49bc9fb30)
+        ;
+
+        
+    
+    
+            var circle_marker_4ee831a97f234727fa5555f4384aae80 = L.circleMarker(
+                [40.451042, -80.01198340666666],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_f07bb236ca475f002400935baa4a8d24 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f21fc07defb14c8d58db17fec077528c = $(`<div id="html_f21fc07defb14c8d58db17fec077528c" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Allegheny West<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_f07bb236ca475f002400935baa4a8d24.setContent(html_f21fc07defb14c8d58db17fec077528c);
+            
+        
+
+        circle_marker_4ee831a97f234727fa5555f4384aae80.bindPopup(popup_f07bb236ca475f002400935baa4a8d24)
+        ;
+
+        
+    
+    
+            var circle_marker_0b6c4480010acc9140b7532d638cb466 = L.circleMarker(
+                [40.42279397666667, -79.99477113],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_bdce28f6c32b0f9df6f6196dd493941c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e959650e5179d5c1499aa48be2591f81 = $(`<div id="html_e959650e5179d5c1499aa48be2591f81" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Allentown<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_bdce28f6c32b0f9df6f6196dd493941c.setContent(html_e959650e5179d5c1499aa48be2591f81);
+            
+        
+
+        circle_marker_0b6c4480010acc9140b7532d638cb466.bindPopup(popup_bdce28f6c32b0f9df6f6196dd493941c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e1b3a883d2dbfd050d1094aa817fc82 = L.circleMarker(
+                [40.41142759142857, -80.03878676285714],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_4ccbf37a8d82511e2b369a94a8139849 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d528d90e44a1ef5884873c7d7bd2224d = $(`<div id="html_d528d90e44a1ef5884873c7d7bd2224d" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Banksville<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_4ccbf37a8d82511e2b369a94a8139849.setContent(html_d528d90e44a1ef5884873c7d7bd2224d);
+            
+        
+
+        circle_marker_0e1b3a883d2dbfd050d1094aa817fc82.bindPopup(popup_4ccbf37a8d82511e2b369a94a8139849)
+        ;
+
+        
+    
+    
+            var circle_marker_293e7227a549c287562e8bf1d3a1fa4e = L.circleMarker(
+                [40.449395665000004, -79.97813707166667],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_883787232557b1ba87a9a3387f1d00f4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_824625c973095a8b1be68e5242e4434e = $(`<div id="html_824625c973095a8b1be68e5242e4434e" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Bedford Dwellings<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_883787232557b1ba87a9a3387f1d00f4.setContent(html_824625c973095a8b1be68e5242e4434e);
+            
+        
+
+        circle_marker_293e7227a549c287562e8bf1d3a1fa4e.bindPopup(popup_883787232557b1ba87a9a3387f1d00f4)
+        ;
+
+        
+    
+    
+            var circle_marker_e0fe6aca4b040094c0605b6aed9316d1 = L.circleMarker(
+                [40.41386000833334, -80.02058612],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_52a7766d98c3c5dfee1a7a5f655adbd5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_29c200132b66168ada45eccc24ed204a = $(`<div id="html_29c200132b66168ada45eccc24ed204a" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Beechview<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_52a7766d98c3c5dfee1a7a5f655adbd5.setContent(html_29c200132b66168ada45eccc24ed204a);
+            
+        
+
+        circle_marker_e0fe6aca4b040094c0605b6aed9316d1.bindPopup(popup_52a7766d98c3c5dfee1a7a5f655adbd5)
+        ;
+
+        
+    
+    
+            var circle_marker_0c2b2e0b4ee69a04ff409076250c9a98 = L.circleMarker(
+                [40.41441259571428, -80.00169408],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_969dd2625c698d789f12dee36f66c6ab = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_39953fe56344beea1ea5f21d9e83f099 = $(`<div id="html_39953fe56344beea1ea5f21d9e83f099" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Beltzhoover<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_969dd2625c698d789f12dee36f66c6ab.setContent(html_39953fe56344beea1ea5f21d9e83f099);
+            
+        
+
+        circle_marker_0c2b2e0b4ee69a04ff409076250c9a98.bindPopup(popup_969dd2625c698d789f12dee36f66c6ab)
+        ;
+
+        
+    
+    
+            var circle_marker_6ef78099f021497fb03f4961cf52fed7 = L.circleMarker(
+                [40.46013012666666, -79.95069577166667],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_dfa1a93f9a063cea3330e014f48b9af6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c5c0d5672502139a8cde021965220b6f = $(`<div id="html_c5c0d5672502139a8cde021965220b6f" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Bloomfield<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_dfa1a93f9a063cea3330e014f48b9af6.setContent(html_c5c0d5672502139a8cde021965220b6f);
+            
+        
+
+        circle_marker_6ef78099f021497fb03f4961cf52fed7.bindPopup(popup_dfa1a93f9a063cea3330e014f48b9af6)
+        ;
+
+        
+    
+    
+            var circle_marker_164d66af62ef361ad527b04557a4c88d = L.circleMarker(
+                [40.43579741, -79.99217750000001],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_26f59ba3c51bb341dae170f01eb63b2e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6c629c9fa9912ffcfdf9cd575479256b = $(`<div id="html_6c629c9fa9912ffcfdf9cd575479256b" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Bluff<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_26f59ba3c51bb341dae170f01eb63b2e.setContent(html_6c629c9fa9912ffcfdf9cd575479256b);
+            
+        
+
+        circle_marker_164d66af62ef361ad527b04557a4c88d.bindPopup(popup_26f59ba3c51bb341dae170f01eb63b2e)
+        ;
+
+        
+    
+    
+            var circle_marker_175aa4070402d29b0dd167f1c1d83782 = L.circleMarker(
+                [40.40746405, -79.99952641],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_2ff52727354bce1879e38eb5a57322bf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4ac6e7995249e3c782f4e73618687aeb = $(`<div id="html_4ac6e7995249e3c782f4e73618687aeb" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Bon Air<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_2ff52727354bce1879e38eb5a57322bf.setContent(html_4ac6e7995249e3c782f4e73618687aeb);
+            
+        
+
+        circle_marker_175aa4070402d29b0dd167f1c1d83782.bindPopup(popup_2ff52727354bce1879e38eb5a57322bf)
+        ;
+
+        
+    
+    
+            var circle_marker_31f09584f3dad1fc999bcb1b626258ef = L.circleMarker(
+                [40.48529602714286, -80.034108015],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_8821bedc2b5b242ba7df8cac49769df9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_aa0c40bb430fc83e3d3fa4ca116c6c19 = $(`<div id="html_aa0c40bb430fc83e3d3fa4ca116c6c19" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Brighton Heights<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_8821bedc2b5b242ba7df8cac49769df9.setContent(html_aa0c40bb430fc83e3d3fa4ca116c6c19);
+            
+        
+
+        circle_marker_31f09584f3dad1fc999bcb1b626258ef.bindPopup(popup_8821bedc2b5b242ba7df8cac49769df9)
+        ;
+
+        
+    
+    
+            var circle_marker_e0994d5bf767c3ff4cb4626bc8aaf662 = L.circleMarker(
+                [40.39226237631579, -80.00882559157894],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_67b4e374091b4e9046eaefb1a320e204 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_694c9dce9a62660fc8d04275d89f8a7b = $(`<div id="html_694c9dce9a62660fc8d04275d89f8a7b" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Brookline<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_67b4e374091b4e9046eaefb1a320e204.setContent(html_694c9dce9a62660fc8d04275d89f8a7b);
+            
+        
+
+        circle_marker_e0994d5bf767c3ff4cb4626bc8aaf662.bindPopup(popup_67b4e374091b4e9046eaefb1a320e204)
+        ;
+
+        
+    
+    
+            var circle_marker_d3c2f05f1a4241787f5a79f20272fb27 = L.circleMarker(
+                [40.45700651, -80.01609172],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_d179a3c895a0b6b3324f77b689d2bdb0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_648818419bb4a9660592dc16449f6f6c = $(`<div id="html_648818419bb4a9660592dc16449f6f6c" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> California-Kirkbride<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_d179a3c895a0b6b3324f77b689d2bdb0.setContent(html_648818419bb4a9660592dc16449f6f6c);
+            
+        
+
+        circle_marker_d3c2f05f1a4241787f5a79f20272fb27.bindPopup(popup_d179a3c895a0b6b3324f77b689d2bdb0)
+        ;
+
+        
+    
+    
+            var circle_marker_398367b978faec5e1c69d93dab61b688 = L.circleMarker(
+                [40.3967299725, -79.99227168750001],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_ce96e247e90044223c884cf59cb1e4d8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e1b01428f9a935237a703803b12fa60e = $(`<div id="html_e1b01428f9a935237a703803b12fa60e" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Carrick<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_ce96e247e90044223c884cf59cb1e4d8.setContent(html_e1b01428f9a935237a703803b12fa60e);
+            
+        
+
+        circle_marker_398367b978faec5e1c69d93dab61b688.bindPopup(popup_ce96e247e90044223c884cf59cb1e4d8)
+        ;
+
+        
+    
+    
+            var circle_marker_f09b780fa712f58d20be17bc927a2040 = L.circleMarker(
+                [40.4381836525, -79.99809134875],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_55367b38d4e42e2f3da86625dd13c59e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0946018981310a7dbf7d67b4bd0f4da1 = $(`<div id="html_0946018981310a7dbf7d67b4bd0f4da1" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Central Business District<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_55367b38d4e42e2f3da86625dd13c59e.setContent(html_0946018981310a7dbf7d67b4bd0f4da1);
+            
+        
+
+        circle_marker_f09b780fa712f58d20be17bc927a2040.bindPopup(popup_55367b38d4e42e2f3da86625dd13c59e)
+        ;
+
+        
+    
+    
+            var circle_marker_05b14323f7b2bd8a5b9bd260b4e135b2 = L.circleMarker(
+                [40.472892933333334, -79.95765143666667],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_272cdabc9d8f91d7261ecbc7d9b2ffbe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_695ce5c9340923fc62f31a05a6bd601f = $(`<div id="html_695ce5c9340923fc62f31a05a6bd601f" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Central Lawrenceville<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_272cdabc9d8f91d7261ecbc7d9b2ffbe.setContent(html_695ce5c9340923fc62f31a05a6bd601f);
+            
+        
+
+        circle_marker_05b14323f7b2bd8a5b9bd260b4e135b2.bindPopup(popup_272cdabc9d8f91d7261ecbc7d9b2ffbe)
+        ;
+
+        
+    
+    
+            var circle_marker_be14294d1447fab2d3b4b7e00ae8ddf5 = L.circleMarker(
+                [40.45935482, -80.01447619],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_b9b347c7160ad0a741fcc971ba269f5f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9c9d415e072ec885c85550c7b9f109f9 = $(`<div id="html_9c9d415e072ec885c85550c7b9f109f9" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Central Northside<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_b9b347c7160ad0a741fcc971ba269f5f.setContent(html_9c9d415e072ec885c85550c7b9f109f9);
+            
+        
+
+        circle_marker_be14294d1447fab2d3b4b7e00ae8ddf5.bindPopup(popup_b9b347c7160ad0a741fcc971ba269f5f)
+        ;
+
+        
+    
+    
+            var circle_marker_db66aa816b6974fa45ab47e8076c8e4c = L.circleMarker(
+                [40.43878646, -79.95756145],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_d595041da618dcc037ad47aaeb41b3ef = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6d270071cd44eafcde6b0d8563b9f8b7 = $(`<div id="html_6d270071cd44eafcde6b0d8563b9f8b7" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Central Oakland<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_d595041da618dcc037ad47aaeb41b3ef.setContent(html_6d270071cd44eafcde6b0d8563b9f8b7);
+            
+        
+
+        circle_marker_db66aa816b6974fa45ab47e8076c8e4c.bindPopup(popup_d595041da618dcc037ad47aaeb41b3ef)
+        ;
+
+        
+    
+    
+            var circle_marker_c1ab3e014c9cc9f8f4344ef4471a18e5 = L.circleMarker(
+                [40.45126154, -80.02397860333333],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_799b7f2b39555811d83e30707c31ac66 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_de8c9504e40f187d236eb873155cb4df = $(`<div id="html_de8c9504e40f187d236eb873155cb4df" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Chateau<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_799b7f2b39555811d83e30707c31ac66.setContent(html_de8c9504e40f187d236eb873155cb4df);
+            
+        
+
+        circle_marker_c1ab3e014c9cc9f8f4344ef4471a18e5.bindPopup(popup_799b7f2b39555811d83e30707c31ac66)
+        ;
+
+        
+    
+    
+            var circle_marker_94ca79dce41fb03217a3426c0d7ac654 = L.circleMarker(
+                [40.43940188, -80.05223353],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_7134f0c77c1df94522240b322a4794ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a94321ee953ad0138c52df8ebfa6158 = $(`<div id="html_6a94321ee953ad0138c52df8ebfa6158" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Crafton Heights<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_7134f0c77c1df94522240b322a4794ec.setContent(html_6a94321ee953ad0138c52df8ebfa6158);
+            
+        
+
+        circle_marker_94ca79dce41fb03217a3426c0d7ac654.bindPopup(popup_7134f0c77c1df94522240b322a4794ec)
+        ;
+
+        
+    
+    
+            var circle_marker_473670ca7848f0b9cb92aa4c40cc72a7 = L.circleMarker(
+                [40.44091581333333, -79.98146391333333],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_e3cd6793e0e334eb57d1855e030b8008 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b7900064d744a05141e2dc23e884f94c = $(`<div id="html_b7900064d744a05141e2dc23e884f94c" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Crawford-Roberts<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_e3cd6793e0e334eb57d1855e030b8008.setContent(html_b7900064d744a05141e2dc23e884f94c);
+            
+        
+
+        circle_marker_473670ca7848f0b9cb92aa4c40cc72a7.bindPopup(popup_e3cd6793e0e334eb57d1855e030b8008)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb5f1bf00ebd315bc4faa1a37bb7d37 = L.circleMarker(
+                [40.426335565, -80.02152194499999],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_0b0aa9c28132d7beabca64c9a494f326 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9d7d30d8c9d6ff9a94d30f2690146db4 = $(`<div id="html_9d7d30d8c9d6ff9a94d30f2690146db4" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Duquesne Heights<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_0b0aa9c28132d7beabca64c9a494f326.setContent(html_9d7d30d8c9d6ff9a94d30f2690146db4);
+            
+        
+
+        circle_marker_2cb5f1bf00ebd315bc4faa1a37bb7d37.bindPopup(popup_0b0aa9c28132d7beabca64c9a494f326)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef220b1ec4cf61580111de34b4d33ec = L.circleMarker(
+                [40.45801237, -79.99512978],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_994f5c3acb0ce873341e28fa47d844ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40a1bd747f252a86b634d199c13a35fe = $(`<div id="html_40a1bd747f252a86b634d199c13a35fe" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> East Allegheny<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_994f5c3acb0ce873341e28fa47d844ba.setContent(html_40a1bd747f252a86b634d199c13a35fe);
+            
+        
+
+        circle_marker_9ef220b1ec4cf61580111de34b4d33ec.bindPopup(popup_994f5c3acb0ce873341e28fa47d844ba)
+        ;
+
+        
+    
+    
+            var circle_marker_a62877d8b81718724ce8579a51a822b7 = L.circleMarker(
+                [40.453709376666666, -79.87103705999999],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_49ff0882bb7071d86f01535e7ae3a26a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_518ac7f7cad4db11a097598d9ef220ba = $(`<div id="html_518ac7f7cad4db11a097598d9ef220ba" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> East Hills<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_49ff0882bb7071d86f01535e7ae3a26a.setContent(html_518ac7f7cad4db11a097598d9ef220ba);
+            
+        
+
+        circle_marker_a62877d8b81718724ce8579a51a822b7.bindPopup(popup_49ff0882bb7071d86f01535e7ae3a26a)
+        ;
+
+        
+    
+    
+            var circle_marker_37f2ff1d17b48bc139cd8b942c683852 = L.circleMarker(
+                [40.46292088333333, -79.92846613333334],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_681c8b0d432eca129b74eeea03856cec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_925e6b9776638499cb97bdc073b6ba86 = $(`<div id="html_925e6b9776638499cb97bdc073b6ba86" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> East Liberty<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_681c8b0d432eca129b74eeea03856cec.setContent(html_925e6b9776638499cb97bdc073b6ba86);
+            
+        
+
+        circle_marker_37f2ff1d17b48bc139cd8b942c683852.bindPopup(popup_681c8b0d432eca129b74eeea03856cec)
+        ;
+
+        
+    
+    
+            var circle_marker_b7c6401ab082147ccfb8a916b08d9c4a = L.circleMarker(
+                [40.440225355454544, -80.04228448090909],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_e1a2af940240a5e1ca89e913f9e58287 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bceb81864ffae90546113a0aee82a206 = $(`<div id="html_bceb81864ffae90546113a0aee82a206" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Elliott<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_e1a2af940240a5e1ca89e913f9e58287.setContent(html_bceb81864ffae90546113a0aee82a206);
+            
+        
+
+        circle_marker_b7c6401ab082147ccfb8a916b08d9c4a.bindPopup(popup_e1a2af940240a5e1ca89e913f9e58287)
+        ;
+
+        
+    
+    
+            var circle_marker_dd6b0fbfd5d0d5c33804e5365c51d282 = L.circleMarker(
+                [40.44925858, -80.08084917],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_71fb10da085d8607ea14019d76a5904a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c181299e9843dad86dccde8582905ea6 = $(`<div id="html_c181299e9843dad86dccde8582905ea6" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Fairywood<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_71fb10da085d8607ea14019d76a5904a.setContent(html_c181299e9843dad86dccde8582905ea6);
+            
+        
+
+        circle_marker_dd6b0fbfd5d0d5c33804e5365c51d282.bindPopup(popup_71fb10da085d8607ea14019d76a5904a)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba9bdd36d91e35225672d6fdc5f9fa0 = L.circleMarker(
+                [40.46182039, -80.00385177],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_ff49f28f556daf2eecc049e2dfd3bbae = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dc8fe55b3739e4ecb0e41602a3888a13 = $(`<div id="html_dc8fe55b3739e4ecb0e41602a3888a13" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Fineview<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_ff49f28f556daf2eecc049e2dfd3bbae.setContent(html_dc8fe55b3739e4ecb0e41602a3888a13);
+            
+        
+
+        circle_marker_3ba9bdd36d91e35225672d6fdc5f9fa0.bindPopup(popup_ff49f28f556daf2eecc049e2dfd3bbae)
+        ;
+
+        
+    
+    
+            var circle_marker_b1b7223573b044e19eb6135acc33abfd = L.circleMarker(
+                [40.4686969525, -79.94365942],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_74d73e90ade6730a9dc57fdd50eea96e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_26d886352458bc516369dce40a50e6af = $(`<div id="html_26d886352458bc516369dce40a50e6af" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Garfield<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_74d73e90ade6730a9dc57fdd50eea96e.setContent(html_26d886352458bc516369dce40a50e6af);
+            
+        
+
+        circle_marker_b1b7223573b044e19eb6135acc33abfd.bindPopup(popup_74d73e90ade6730a9dc57fdd50eea96e)
+        ;
+
+        
+    
+    
+            var circle_marker_d4b6a91e5e00326816b5469582b5fe5f = L.circleMarker(
+                [40.40674251, -79.93311132],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_246d359cefd3b7be2e6495962186ad56 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_60f86b5418bfb8d8d1487986bffa11af = $(`<div id="html_60f86b5418bfb8d8d1487986bffa11af" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Glen Hazel<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_246d359cefd3b7be2e6495962186ad56.setContent(html_60f86b5418bfb8d8d1487986bffa11af);
+            
+        
+
+        circle_marker_d4b6a91e5e00326816b5469582b5fe5f.bindPopup(popup_246d359cefd3b7be2e6495962186ad56)
+        ;
+
+        
+    
+    
+            var circle_marker_0d1cd38726429e29157a95ed103c62fa = L.circleMarker(
+                [40.424719429999996, -79.9380647075],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_02e8468e17a95f77807549e9ffe752ae = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d1c5e92c12fd4cb40fad5254b43cd69b = $(`<div id="html_d1c5e92c12fd4cb40fad5254b43cd69b" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Greenfield<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_02e8468e17a95f77807549e9ffe752ae.setContent(html_d1c5e92c12fd4cb40fad5254b43cd69b);
+            
+        
+
+        circle_marker_0d1cd38726429e29157a95ed103c62fa.bindPopup(popup_02e8468e17a95f77807549e9ffe752ae)
+        ;
+
+        
+    
+    
+            var circle_marker_7d2497745f4f5d96903f9d317930e0b6 = L.circleMarker(
+                [40.384558119999994, -79.93236516],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_bbfba080d966862f69d2b896a1a92519 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b88268dbe937f49ca4d395e6bdea2328 = $(`<div id="html_b88268dbe937f49ca4d395e6bdea2328" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Hays<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_bbfba080d966862f69d2b896a1a92519.setContent(html_b88268dbe937f49ca4d395e6bdea2328);
+            
+        
+
+        circle_marker_7d2497745f4f5d96903f9d317930e0b6.bindPopup(popup_bbfba080d966862f69d2b896a1a92519)
+        ;
+
+        
+    
+    
+            var circle_marker_bd0fb27cef742e73e496381c11dca9da = L.circleMarker(
+                [40.41095345142857, -79.94361737928571],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_2b16c309be846493615fbe780b024ff5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9bb8167401bd8393349cefd234c4a2b5 = $(`<div id="html_9bb8167401bd8393349cefd234c4a2b5" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Hazelwood<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_2b16c309be846493615fbe780b024ff5.setContent(html_9bb8167401bd8393349cefd234c4a2b5);
+            
+        
+
+        circle_marker_bd0fb27cef742e73e496381c11dca9da.bindPopup(popup_2b16c309be846493615fbe780b024ff5)
+        ;
+
+        
+    
+    
+            var circle_marker_163e98ba447577f50738c43b1dd41393 = L.circleMarker(
+                [40.478555316333335, -79.91123281799999],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_39fd50470b2845358f67732511d0b8b0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f48699fa9192ccc743b484482c4f7032 = $(`<div id="html_f48699fa9192ccc743b484482c4f7032" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Highland Park<br><b>Unique Fire Zones:</b> 4<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 5</div>`)[0];
+                popup_39fd50470b2845358f67732511d0b8b0.setContent(html_f48699fa9192ccc743b484482c4f7032);
+            
+        
+
+        circle_marker_163e98ba447577f50738c43b1dd41393.bindPopup(popup_39fd50470b2845358f67732511d0b8b0)
+        ;
+
+        
+    
+    
+            var circle_marker_55d20e7154403e2e6a1baccb859e1fb4 = L.circleMarker(
+                [40.45692645, -79.89299951],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_8fa539ed93ac41bb2370c99b3be00de1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_60476b98b7e3798639d4dea600e255d2 = $(`<div id="html_60476b98b7e3798639d4dea600e255d2" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Homewood North<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_8fa539ed93ac41bb2370c99b3be00de1.setContent(html_60476b98b7e3798639d4dea600e255d2);
+            
+        
+
+        circle_marker_55d20e7154403e2e6a1baccb859e1fb4.bindPopup(popup_8fa539ed93ac41bb2370c99b3be00de1)
+        ;
+
+        
+    
+    
+            var circle_marker_4461f8f2bba892debb3049de6e162eea = L.circleMarker(
+                [40.45387270333333, -79.89706177333333],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_6d06e067e08ed93bc154459cce043e1d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_be9025e291fb33b5b8002e3a7c7112b7 = $(`<div id="html_be9025e291fb33b5b8002e3a7c7112b7" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Homewood South<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_6d06e067e08ed93bc154459cce043e1d.setContent(html_be9025e291fb33b5b8002e3a7c7112b7);
+            
+        
+
+        circle_marker_4461f8f2bba892debb3049de6e162eea.bindPopup(popup_6d06e067e08ed93bc154459cce043e1d)
+        ;
+
+        
+    
+    
+            var circle_marker_a7858069ad3ebcd36495c3ea67e29f2c = L.circleMarker(
+                [40.4560086, -79.90569205499999],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_d4df35985fc569267fe1739c04a02d41 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40d67af6b64f7ad8b617c8bac382e2d4 = $(`<div id="html_40d67af6b64f7ad8b617c8bac382e2d4" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Homewood West<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_d4df35985fc569267fe1739c04a02d41.setContent(html_40d67af6b64f7ad8b617c8bac382e2d4);
+            
+        
+
+        circle_marker_a7858069ad3ebcd36495c3ea67e29f2c.bindPopup(popup_d4df35985fc569267fe1739c04a02d41)
+        ;
+
+        
+    
+    
+            var circle_marker_f83e7c9986d6046b50b26487292301c5 = L.circleMarker(
+                [40.413891855, -79.99607496],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_1a20f7254a8d69cfbcd5ed992061382f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_213e4c1ae740767a0095de35e6489032 = $(`<div id="html_213e4c1ae740767a0095de35e6489032" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Knoxville<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_1a20f7254a8d69cfbcd5ed992061382f.setContent(html_213e4c1ae740767a0095de35e6489032);
+            
+        
+
+        circle_marker_f83e7c9986d6046b50b26487292301c5.bindPopup(popup_1a20f7254a8d69cfbcd5ed992061382f)
+        ;
+
+        
+    
+    
+            var circle_marker_58449f8576936ea53073cc6340c449e9 = L.circleMarker(
+                [40.46673766, -79.91329351],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_ad8a7f262decc60e602649ff901f8d76 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40d0664ee89f54d5217411bd5cb58afe = $(`<div id="html_40d0664ee89f54d5217411bd5cb58afe" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Larimer<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_ad8a7f262decc60e602649ff901f8d76.setContent(html_40d0664ee89f54d5217411bd5cb58afe);
+            
+        
+
+        circle_marker_58449f8576936ea53073cc6340c449e9.bindPopup(popup_ad8a7f262decc60e602649ff901f8d76)
+        ;
+
+        
+    
+    
+            var circle_marker_48def0ad60952e5887504357efbd9d66 = L.circleMarker(
+                [40.370212364, -79.908854668],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_bd3290c296cfe8b9edc2eb301f45f2c9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_569b9243270ab27415eca9f47d4ff036 = $(`<div id="html_569b9243270ab27415eca9f47d4ff036" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Lincoln Place<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_bd3290c296cfe8b9edc2eb301f45f2c9.setContent(html_569b9243270ab27415eca9f47d4ff036);
+            
+        
+
+        circle_marker_48def0ad60952e5887504357efbd9d66.bindPopup(popup_bd3290c296cfe8b9edc2eb301f45f2c9)
+        ;
+
+        
+    
+    
+            var circle_marker_9eea2638190409388604ed5b7b8b8eb1 = L.circleMarker(
+                [40.47186267272727, -79.90014255454545],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_25b435ea8ab4faa9274ac49678126178 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_05c0efa8299e5fab9e633e42766c5cfa = $(`<div id="html_05c0efa8299e5fab9e633e42766c5cfa" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Lincoln-Lemington-Belmar<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_25b435ea8ab4faa9274ac49678126178.setContent(html_05c0efa8299e5fab9e633e42766c5cfa);
+            
+        
+
+        circle_marker_9eea2638190409388604ed5b7b8b8eb1.bindPopup(popup_25b435ea8ab4faa9274ac49678126178)
+        ;
+
+        
+    
+    
+            var circle_marker_11279e275249305afa42e42a8d65c387 = L.circleMarker(
+                [40.46344913, -79.95748492],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_18cea33aced2a69ca798b9879db5cbf9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f3212d6b5400f51efaa6914588313a0 = $(`<div id="html_3f3212d6b5400f51efaa6914588313a0" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Lower Lawrenceville<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_18cea33aced2a69ca798b9879db5cbf9.setContent(html_3f3212d6b5400f51efaa6914588313a0);
+            
+        
+
+        circle_marker_11279e275249305afa42e42a8d65c387.bindPopup(popup_18cea33aced2a69ca798b9879db5cbf9)
+        ;
+
+        
+    
+    
+            var circle_marker_c228e8090473d024cd727ff0d2208dcb = L.circleMarker(
+                [40.456174626666666, -80.02441673],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_abdfe99c8c6643da4d33daef1f6a58e1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7d0c72287b00ffee66e5e67884868c46 = $(`<div id="html_7d0c72287b00ffee66e5e67884868c46" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Manchester<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_abdfe99c8c6643da4d33daef1f6a58e1.setContent(html_7d0c72287b00ffee66e5e67884868c46);
+            
+        
+
+        circle_marker_c228e8090473d024cd727ff0d2208dcb.bindPopup(popup_abdfe99c8c6643da4d33daef1f6a58e1)
+        ;
+
+        
+    
+    
+            var circle_marker_114efa7c23fe629ca7e08c4b316821bb = L.circleMarker(
+                [40.473243626666665, -80.03061795333333],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_38a9436b5d26ef64377ca8b9ad10f9de = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_49b63ee0b1d13163a477b2d94c1ca2b2 = $(`<div id="html_49b63ee0b1d13163a477b2d94c1ca2b2" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Marshall-Shadeland<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_38a9436b5d26ef64377ca8b9ad10f9de.setContent(html_49b63ee0b1d13163a477b2d94c1ca2b2);
+            
+        
+
+        circle_marker_114efa7c23fe629ca7e08c4b316821bb.bindPopup(popup_38a9436b5d26ef64377ca8b9ad10f9de)
+        ;
+
+        
+    
+    
+            var circle_marker_c453bdc3b96433240c7ba738b2b1e793 = L.circleMarker(
+                [40.45273473, -79.96572606],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_0c4a5f93f6d0a22bc8ece9dae0a2ad2f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_063f17db6bceb858b58961dfe5fa5ff4 = $(`<div id="html_063f17db6bceb858b58961dfe5fa5ff4" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Middle Hill<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_0c4a5f93f6d0a22bc8ece9dae0a2ad2f.setContent(html_063f17db6bceb858b58961dfe5fa5ff4);
+            
+        
+
+        circle_marker_c453bdc3b96433240c7ba738b2b1e793.bindPopup(popup_0c4a5f93f6d0a22bc8ece9dae0a2ad2f)
+        ;
+
+        
+    
+    
+            var circle_marker_fd253be42a7d694256ff31730c0a743b = L.circleMarker(
+                [40.483530828, -79.926980122],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_0a5ed427612ee0e359e2e2cabaf41390 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2ab8849ddbbfcc868c538cd8d82dc01c = $(`<div id="html_2ab8849ddbbfcc868c538cd8d82dc01c" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Morningside<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_0a5ed427612ee0e359e2e2cabaf41390.setContent(html_2ab8849ddbbfcc868c538cd8d82dc01c);
+            
+        
+
+        circle_marker_fd253be42a7d694256ff31730c0a743b.bindPopup(popup_0a5ed427612ee0e359e2e2cabaf41390)
+        ;
+
+        
+    
+    
+            var circle_marker_982de560286d6d7da822c1cad87c631c = L.circleMarker(
+                [40.43039614285714, -80.01307807571428],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_1f8a6d1f6e38b309d4b927ca372b7508 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_335834abe56597ea8abb51233911f861 = $(`<div id="html_335834abe56597ea8abb51233911f861" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Mount Washington<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_1f8a6d1f6e38b309d4b927ca372b7508.setContent(html_335834abe56597ea8abb51233911f861);
+            
+        
+
+        circle_marker_982de560286d6d7da822c1cad87c631c.bindPopup(popup_1f8a6d1f6e38b309d4b927ca372b7508)
+        ;
+
+        
+    
+    
+            var circle_marker_a1c3439ba1afd74fcd5a8ebd590a69ca = L.circleMarker(
+                [40.44882074666666, -79.9531942],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_50d625f3d326f48d607dffe5dce8c8f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_67cf1b153191ae2ae6221fdf0c7a3a1d = $(`<div id="html_67cf1b153191ae2ae6221fdf0c7a3a1d" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> North Oakland<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_50d625f3d326f48d607dffe5dce8c8f0.setContent(html_67cf1b153191ae2ae6221fdf0c7a3a1d);
+            
+        
+
+        circle_marker_a1c3439ba1afd74fcd5a8ebd590a69ca.bindPopup(popup_50d625f3d326f48d607dffe5dce8c8f0)
+        ;
+
+        
+    
+    
+            var circle_marker_377159fa8816b23bb18102bf66b1433e = L.circleMarker(
+                [40.425758423333335, -80.06633791666667],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_a851e8e4c2c5b06e4411da58c6ae8aa1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f2aec46067bb7566c54b417074fc8042 = $(`<div id="html_f2aec46067bb7566c54b417074fc8042" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Oakwood<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_a851e8e4c2c5b06e4411da58c6ae8aa1.setContent(html_f2aec46067bb7566c54b417074fc8042);
+            
+        
+
+        circle_marker_377159fa8816b23bb18102bf66b1433e.bindPopup(popup_a851e8e4c2c5b06e4411da58c6ae8aa1)
+        ;
+
+        
+    
+    
+            var circle_marker_cdb8449241de240b7325e4f4db7b3feb = L.circleMarker(
+                [40.386654379999996, -79.9955243],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_5600fece0e4aed72a977a5ed010c9c29 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4783caf76f0fe995a461ee9aa2bf6c0 = $(`<div id="html_d4783caf76f0fe995a461ee9aa2bf6c0" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Overbrook<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_5600fece0e4aed72a977a5ed010c9c29.setContent(html_d4783caf76f0fe995a461ee9aa2bf6c0);
+            
+        
+
+        circle_marker_cdb8449241de240b7325e4f4db7b3feb.bindPopup(popup_5600fece0e4aed72a977a5ed010c9c29)
+        ;
+
+        
+    
+    
+            var circle_marker_a142c223267c74666a1cd07b667a8eec = L.circleMarker(
+                [40.4841656805, -80.0181432345],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_ac6ccd15b20cfe7893e6c739c35c3934 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5da6b44d164509bb27d18dac96f7b68d = $(`<div id="html_5da6b44d164509bb27d18dac96f7b68d" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Perry North<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_ac6ccd15b20cfe7893e6c739c35c3934.setContent(html_5da6b44d164509bb27d18dac96f7b68d);
+            
+        
+
+        circle_marker_a142c223267c74666a1cd07b667a8eec.bindPopup(popup_ac6ccd15b20cfe7893e6c739c35c3934)
+        ;
+
+        
+    
+    
+            var circle_marker_6a20c84a83e2488ba5dbd61b4024fe7e = L.circleMarker(
+                [40.46826283666667, -80.01115045333334],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_a876d4ee204f32a0f225b6e075ce1559 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_09a786f1b0878cd552c9f3f009e88a57 = $(`<div id="html_09a786f1b0878cd552c9f3f009e88a57" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Perry South<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_a876d4ee204f32a0f225b6e075ce1559.setContent(html_09a786f1b0878cd552c9f3f009e88a57);
+            
+        
+
+        circle_marker_6a20c84a83e2488ba5dbd61b4024fe7e.bindPopup(popup_a876d4ee204f32a0f225b6e075ce1559)
+        ;
+
+        
+    
+    
+            var circle_marker_cc626d04f2502312d780f15c160466b7 = L.circleMarker(
+                [40.44848032875, -79.9103325975],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_947b4af2ab461c1e55ba608e0d674fd0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_76f3761456b257f7c3fe4df50e9581bd = $(`<div id="html_76f3761456b257f7c3fe4df50e9581bd" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Point Breeze<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_947b4af2ab461c1e55ba608e0d674fd0.setContent(html_76f3761456b257f7c3fe4df50e9581bd);
+            
+        
+
+        circle_marker_cc626d04f2502312d780f15c160466b7.bindPopup(popup_947b4af2ab461c1e55ba608e0d674fd0)
+        ;
+
+        
+    
+    
+            var circle_marker_5fd3ea7e2fc209caf526ef70fb7e7be6 = L.circleMarker(
+                [40.45253064, -79.90284051],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_c9e78fdb925ea5b5735b46ced3d063b4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4197e0b57c9f4899bf31d4fb663a29dd = $(`<div id="html_4197e0b57c9f4899bf31d4fb663a29dd" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Point Breeze North<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_c9e78fdb925ea5b5735b46ced3d063b4.setContent(html_4197e0b57c9f4899bf31d4fb663a29dd);
+            
+        
+
+        circle_marker_5fd3ea7e2fc209caf526ef70fb7e7be6.bindPopup(popup_c9e78fdb925ea5b5735b46ced3d063b4)
+        ;
+
+        
+    
+    
+            var circle_marker_76a8de090a98aa63bae444fbf6f3bae9 = L.circleMarker(
+                [40.455624615, -79.9699447375],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_a34615aa08f27a15f4a0f407324d1d9b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0e4f073b6b959e732ec7fe0632a04dd5 = $(`<div id="html_0e4f073b6b959e732ec7fe0632a04dd5" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Polish Hill<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_a34615aa08f27a15f4a0f407324d1d9b.setContent(html_0e4f073b6b959e732ec7fe0632a04dd5);
+            
+        
+
+        circle_marker_76a8de090a98aa63bae444fbf6f3bae9.bindPopup(popup_a34615aa08f27a15f4a0f407324d1d9b)
+        ;
+
+        
+    
+    
+            var circle_marker_50a30055bbf4147b8d8e60deb2460840 = L.circleMarker(
+                [40.4376636125, -79.897790325],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_3c000879cba324cfee970273fdeb402c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5f4020cc38c79aa5e0ab0b5d54cb18f1 = $(`<div id="html_5f4020cc38c79aa5e0ab0b5d54cb18f1" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Regent Square<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_3c000879cba324cfee970273fdeb402c.setContent(html_5f4020cc38c79aa5e0ab0b5d54cb18f1);
+            
+        
+
+        circle_marker_50a30055bbf4147b8d8e60deb2460840.bindPopup(popup_3c000879cba324cfee970273fdeb402c)
+        ;
+
+        
+    
+    
+            var circle_marker_12b085ddf8ee1177c5543c0263d0911e = L.circleMarker(
+                [40.45423142222222, -79.91809414333333],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_98011bca8a724bf98ace5e7d561bcc22 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fa7a7cc682e563ce3292232f929a9a46 = $(`<div id="html_fa7a7cc682e563ce3292232f929a9a46" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Shadyside<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_98011bca8a724bf98ace5e7d561bcc22.setContent(html_fa7a7cc682e563ce3292232f929a9a46);
+            
+        
+
+        circle_marker_12b085ddf8ee1177c5543c0263d0911e.bindPopup(popup_98011bca8a724bf98ace5e7d561bcc22)
+        ;
+
+        
+    
+    
+            var circle_marker_4d473be2b7ef7011a02eec0401a1a3b9 = L.circleMarker(
+                [40.45758848714286, -80.06018272000001],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_248eaae854bbc61be3418791beadf686 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d2ea13e8d9532f2b9bf4dd8861a54eff = $(`<div id="html_d2ea13e8d9532f2b9bf4dd8861a54eff" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Sheraden<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_248eaae854bbc61be3418791beadf686.setContent(html_d2ea13e8d9532f2b9bf4dd8861a54eff);
+            
+        
+
+        circle_marker_4d473be2b7ef7011a02eec0401a1a3b9.bindPopup(popup_248eaae854bbc61be3418791beadf686)
+        ;
+
+        
+    
+    
+            var circle_marker_17f7bc7405ed1fff9fa0915296b3f727 = L.circleMarker(
+                [40.428146319999996, -79.95324758],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_a8033ca7098b1a3fd84f4a11eab4e188 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f21108a2712e4b5cd3185fb2bbb39379 = $(`<div id="html_f21108a2712e4b5cd3185fb2bbb39379" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> South Oakland<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_a8033ca7098b1a3fd84f4a11eab4e188.setContent(html_f21108a2712e4b5cd3185fb2bbb39379);
+            
+        
+
+        circle_marker_17f7bc7405ed1fff9fa0915296b3f727.bindPopup(popup_a8033ca7098b1a3fd84f4a11eab4e188)
+        ;
+
+        
+    
+    
+            var circle_marker_b460f8cabef905861b37f2fa8acef1e6 = L.circleMarker(
+                [40.42855891000001, -79.983431402],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_98156f934d6f7465b150b646cda4f127 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_acb89f22d6ab9baf08b83a2488c3c83e = $(`<div id="html_acb89f22d6ab9baf08b83a2488c3c83e" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> South Side Flats<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_98156f934d6f7465b150b646cda4f127.setContent(html_acb89f22d6ab9baf08b83a2488c3c83e);
+            
+        
+
+        circle_marker_b460f8cabef905861b37f2fa8acef1e6.bindPopup(popup_98156f934d6f7465b150b646cda4f127)
+        ;
+
+        
+    
+    
+            var circle_marker_226b7db1e924e5845120bcf629f0627f = L.circleMarker(
+                [40.41903231818182, -79.97830137545454],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_2f1c8fecd564fc502cfd8786c8f8d159 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c2a4576ee9bfbe3ba5bdc90dfd5ebde6 = $(`<div id="html_c2a4576ee9bfbe3ba5bdc90dfd5ebde6" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> South Side Slopes<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_2f1c8fecd564fc502cfd8786c8f8d159.setContent(html_c2a4576ee9bfbe3ba5bdc90dfd5ebde6);
+            
+        
+
+        circle_marker_226b7db1e924e5845120bcf629f0627f.bindPopup(popup_2f1c8fecd564fc502cfd8786c8f8d159)
+        ;
+
+        
+    
+    
+            var circle_marker_f4f2ad7f45df991b07f7971fe3201e6a = L.circleMarker(
+                [40.469812233333336, -79.99432810166667],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_8ba1dc682cbcb713e69991b0a62cfdd9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_797fb5f841ab9ca5bb94f8c904820177 = $(`<div id="html_797fb5f841ab9ca5bb94f8c904820177" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Spring Hill-City View<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_8ba1dc682cbcb713e69991b0a62cfdd9.setContent(html_797fb5f841ab9ca5bb94f8c904820177);
+            
+        
+
+        circle_marker_f4f2ad7f45df991b07f7971fe3201e6a.bindPopup(popup_8ba1dc682cbcb713e69991b0a62cfdd9)
+        ;
+
+        
+    
+    
+            var circle_marker_2416dc9a49f5dd911ac2e0cb85fc7601 = L.circleMarker(
+                [40.44234049714286, -79.92724225428572],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_c9463e6beb7ab63d54352e158d6d94f3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a78326b8a856fcbaf7daaa06ab6736fb = $(`<div id="html_a78326b8a856fcbaf7daaa06ab6736fb" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Squirrel Hill North<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_c9463e6beb7ab63d54352e158d6d94f3.setContent(html_a78326b8a856fcbaf7daaa06ab6736fb);
+            
+        
+
+        circle_marker_2416dc9a49f5dd911ac2e0cb85fc7601.bindPopup(popup_c9463e6beb7ab63d54352e158d6d94f3)
+        ;
+
+        
+    
+    
+            var circle_marker_b8ab0f7bd851a99fc0533439ed8785ae = L.circleMarker(
+                [40.4336782962069, -79.92880745931035],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_8460088e9636c1831c93dd02a1339841 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5f62274fb9d9eacc87cccc055abc749a = $(`<div id="html_5f62274fb9d9eacc87cccc055abc749a" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Squirrel Hill South<br><b>Unique Fire Zones:</b> 4<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 5</div>`)[0];
+                popup_8460088e9636c1831c93dd02a1339841.setContent(html_5f62274fb9d9eacc87cccc055abc749a);
+            
+        
+
+        circle_marker_b8ab0f7bd851a99fc0533439ed8785ae.bindPopup(popup_8460088e9636c1831c93dd02a1339841)
+        ;
+
+        
+    
+    
+            var circle_marker_0b0eeca4755dafece4aadcbbc2a26e51 = L.circleMarker(
+                [40.48147102, -79.93726093],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_c6dfebc4300df03cfb6026ead79dea88 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79213d6f88906059b44f6446939a21a7 = $(`<div id="html_79213d6f88906059b44f6446939a21a7" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Stanton Heights<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_c6dfebc4300df03cfb6026ead79dea88.setContent(html_79213d6f88906059b44f6446939a21a7);
+            
+        
+
+        circle_marker_0b0eeca4755dafece4aadcbbc2a26e51.bindPopup(popup_c6dfebc4300df03cfb6026ead79dea88)
+        ;
+
+        
+    
+    
+            var circle_marker_a9c2f1815a0f2baa161e9e706689f620 = L.circleMarker(
+                [40.45759695466666, -79.97713522533333],
+                {"bubblingMouseEvents": true, "color": "#ffa500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_4d3ea70d9d5710df2254bd8983f4ada2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c770c9771b494723f5dbccf093a12176 = $(`<div id="html_c770c9771b494723f5dbccf093a12176" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Strip District<br><b>Unique Fire Zones:</b> 3<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 4</div>`)[0];
+                popup_4d3ea70d9d5710df2254bd8983f4ada2.setContent(html_c770c9771b494723f5dbccf093a12176);
+            
+        
+
+        circle_marker_a9c2f1815a0f2baa161e9e706689f620.bindPopup(popup_4d3ea70d9d5710df2254bd8983f4ada2)
+        ;
+
+        
+    
+    
+            var circle_marker_fd571aa823b46e80d3ceaf4a8741da0d = L.circleMarker(
+                [40.42082667, -79.89983778],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_7c437ca3326b357f2f58ffc181893bd9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0012d72c702dac823b45cc55eafd16e5 = $(`<div id="html_0012d72c702dac823b45cc55eafd16e5" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Swisshelm Park<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_7c437ca3326b357f2f58ffc181893bd9.setContent(html_0012d72c702dac823b45cc55eafd16e5);
+            
+        
+
+        circle_marker_fd571aa823b46e80d3ceaf4a8741da0d.bindPopup(popup_7c437ca3326b357f2f58ffc181893bd9)
+        ;
+
+        
+    
+    
+            var circle_marker_d96b113d678d050b2ffd3db1191719f7 = L.circleMarker(
+                [40.44208372666667, -79.97389925666666],
+                {"bubblingMouseEvents": true, "color": "#ffff00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_2a142965dd514cb987f03cadfbadb773 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a43ba22ff97488fa52595f317b1f6d4 = $(`<div id="html_6a43ba22ff97488fa52595f317b1f6d4" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Terrace Village<br><b>Unique Fire Zones:</b> 2<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 3</div>`)[0];
+                popup_2a142965dd514cb987f03cadfbadb773.setContent(html_6a43ba22ff97488fa52595f317b1f6d4);
+            
+        
+
+        circle_marker_d96b113d678d050b2ffd3db1191719f7.bindPopup(popup_2a142965dd514cb987f03cadfbadb773)
+        ;
+
+        
+    
+    
+            var circle_marker_88b97eb0175c051a06ad44449bb1df2c = L.circleMarker(
+                [40.460481996666665, -79.98634490333335],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_59b38b82ab1ccbb5cb321032b29b3b7b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5fe4bed5e662c8f0410b3aef9990faf2 = $(`<div id="html_5fe4bed5e662c8f0410b3aef9990faf2" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Troy Hill<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_59b38b82ab1ccbb5cb321032b29b3b7b.setContent(html_5fe4bed5e662c8f0410b3aef9990faf2);
+            
+        
+
+        circle_marker_88b97eb0175c051a06ad44449bb1df2c.bindPopup(popup_59b38b82ab1ccbb5cb321032b29b3b7b)
+        ;
+
+        
+    
+    
+            var circle_marker_3c01574edda938425794d8d4625d9467 = L.circleMarker(
+                [40.453443945000004, -79.96188174],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_e2aa8004c4eb8c3f5df5c77281dd028a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bfa58a69171d6dd3fe1132978129ffc6 = $(`<div id="html_bfa58a69171d6dd3fe1132978129ffc6" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Upper Hill<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_e2aa8004c4eb8c3f5df5c77281dd028a.setContent(html_bfa58a69171d6dd3fe1132978129ffc6);
+            
+        
+
+        circle_marker_3c01574edda938425794d8d4625d9467.bindPopup(popup_e2aa8004c4eb8c3f5df5c77281dd028a)
+        ;
+
+        
+    
+    
+            var circle_marker_07dd0945130ffb9e80db99f047d59bee = L.circleMarker(
+                [40.48566604, -79.94644957],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_ded0af1a3b5daf76bb757971e8f77b0c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5fe538058ef043f6f3c10106ace9467c = $(`<div id="html_5fe538058ef043f6f3c10106ace9467c" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Upper Lawrenceville<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_ded0af1a3b5daf76bb757971e8f77b0c.setContent(html_5fe538058ef043f6f3c10106ace9467c);
+            
+        
+
+        circle_marker_07dd0945130ffb9e80db99f047d59bee.bindPopup(popup_ded0af1a3b5daf76bb757971e8f77b0c)
+        ;
+
+        
+    
+    
+            var circle_marker_5c86c51b8009953aa0ace1f586bfaa92 = L.circleMarker(
+                [40.440488195, -80.033497415],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_b4c8338d3c63dc70f8199552eba9fd53 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9f4b24a05b7d5721701ca3291175b110 = $(`<div id="html_9f4b24a05b7d5721701ca3291175b110" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> West End<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_b4c8338d3c63dc70f8199552eba9fd53.setContent(html_9f4b24a05b7d5721701ca3291175b110);
+            
+        
+
+        circle_marker_5c86c51b8009953aa0ace1f586bfaa92.bindPopup(popup_b4c8338d3c63dc70f8199552eba9fd53)
+        ;
+
+        
+    
+    
+            var circle_marker_a70f1dd0be99372ad3629c5a60f94845 = L.circleMarker(
+                [40.4410701, -79.96769806],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_abebbad6b5b800d11b510a2efedcad85 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_90a34a88ab09b1ece79ab402f851b6b9 = $(`<div id="html_90a34a88ab09b1ece79ab402f851b6b9" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> West Oakland<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_abebbad6b5b800d11b510a2efedcad85.setContent(html_90a34a88ab09b1ece79ab402f851b6b9);
+            
+        
+
+        circle_marker_a70f1dd0be99372ad3629c5a60f94845.bindPopup(popup_abebbad6b5b800d11b510a2efedcad85)
+        ;
+
+        
+    
+    
+            var circle_marker_d1120ffb6f21a2dbef08dabb614ebd30 = L.circleMarker(
+                [40.4309218325, -80.050888885],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_8479832a53e8af59f195a44d4de97882 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_08be1d7e5ade38f84c84b403140f3db6 = $(`<div id="html_08be1d7e5ade38f84c84b403140f3db6" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Westwood<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_8479832a53e8af59f195a44d4de97882.setContent(html_08be1d7e5ade38f84c84b403140f3db6);
+            
+        
+
+        circle_marker_d1120ffb6f21a2dbef08dabb614ebd30.bindPopup(popup_8479832a53e8af59f195a44d4de97882)
+        ;
+
+        
+    
+    
+            var circle_marker_0ec6f2a0aac326b34622b7e7ceac035d = L.circleMarker(
+                [40.45702912666667, -80.07468904333334],
+                {"bubblingMouseEvents": true, "color": "#90ee90ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90ee90ff", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+        
+    
+        var popup_e41ff8f920379ae594204d90f3771be5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7b51ec488884aba07c5ccc63617eef1f = $(`<div id="html_7b51ec488884aba07c5ccc63617eef1f" style="width: 100.0%; height: 100.0%;"><b>Neighborhood:</b> Windgap<br><b>Unique Fire Zones:</b> 1<br><b>Unique Police Zones:</b> 1<br><b>Total Zones:</b> 2</div>`)[0];
+                popup_e41ff8f920379ae594204d90f3771be5.setContent(html_7b51ec488884aba07c5ccc63617eef1f);
+            
+        
+
+        circle_marker_0ec6f2a0aac326b34622b7e7ceac035d.bindPopup(popup_e41ff8f920379ae594204d90f3771be5)
+        ;
+
+        
+    
+    
+    var color_map_9a83087d8488cc26fe0ba94787b7eb08 = {};
+
+    
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.color = d3.scale.threshold()
+              .domain([2.0, 2.006012024048096, 2.012024048096192, 2.0180360721442887, 2.024048096192385, 2.030060120240481, 2.036072144288577, 2.0420841683366735, 2.0480961923847696, 2.0541082164328657, 2.0601202404809618, 2.0661322645290583, 2.0721442885771544, 2.0781563126252505, 2.0841683366733466, 2.090180360721443, 2.096192384769539, 2.1022044088176353, 2.1082164328657313, 2.1142284569138274, 2.120240480961924, 2.12625250501002, 2.132264529058116, 2.1382765531062122, 2.1442885771543088, 2.150300601202405, 2.156312625250501, 2.162324649298597, 2.1683366733466936, 2.1743486973947896, 2.1803607214428857, 2.186372745490982, 2.1923847695390783, 2.1983967935871744, 2.2044088176352705, 2.2104208416833666, 2.2164328657314627, 2.2224448897795592, 2.2284569138276553, 2.2344689378757514, 2.2404809619238475, 2.246492985971944, 2.25250501002004, 2.258517034068136, 2.2645290581162323, 2.270541082164329, 2.276553106212425, 2.282565130260521, 2.288577154308617, 2.2945891783567136, 2.3006012024048097, 2.306613226452906, 2.312625250501002, 2.318637274549098, 2.3246492985971945, 2.3306613226452906, 2.3366733466933867, 2.342685370741483, 2.3486973947895793, 2.3547094188376754, 2.3607214428857715, 2.3667334669338675, 2.372745490981964, 2.37875751503006, 2.3847695390781563, 2.3907815631262523, 2.396793587174349, 2.402805611222445, 2.408817635270541, 2.414829659318637, 2.420841683366733, 2.4268537074148298, 2.432865731462926, 2.438877755511022, 2.4448897795591185, 2.4509018036072145, 2.4569138276553106, 2.4629258517034067, 2.468937875751503, 2.4749498997995993, 2.4809619238476954, 2.4869739478957915, 2.4929859719438876, 2.498997995991984, 2.50501002004008, 2.5110220440881763, 2.5170340681362724, 2.5230460921843685, 2.529058116232465, 2.535070140280561, 2.541082164328657, 2.5470941883767537, 2.55310621242485, 2.559118236472946, 2.565130260521042, 2.571142284569138, 2.5771543086172346, 2.5831663326653307, 2.5891783567134268, 2.5951903807615233, 2.6012024048096194, 2.6072144288577155, 2.6132264529058116, 2.6192384769539077, 2.6252505010020037, 2.6312625250501003, 2.6372745490981964, 2.6432865731462925, 2.649298597194389, 2.655310621242485, 2.661322645290581, 2.6673346693386772, 2.6733466933867733, 2.67935871743487, 2.685370741482966, 2.691382765531062, 2.6973947895791586, 2.7034068136272547, 2.7094188376753507, 2.715430861723447, 2.721442885771543, 2.727454909819639, 2.7334669338677355, 2.7394789579158316, 2.7454909819639277, 2.7515030060120242, 2.7575150300601203, 2.7635270541082164, 2.7695390781563125, 2.7755511022044086, 2.781563126252505, 2.787575150300601, 2.7935871743486973, 2.799599198396794, 2.80561122244489, 2.811623246492986, 2.817635270541082, 2.823647294589178, 2.8296593186372747, 2.835671342685371, 2.841683366733467, 2.847695390781563, 2.8537074148296595, 2.8597194388777556, 2.8657314629258517, 2.8717434869739478, 2.877755511022044, 2.8837675350701404, 2.8897795591182365, 2.8957915831663326, 2.901803607214429, 2.907815631262525, 2.9138276553106213, 2.9198396793587174, 2.9258517034068134, 2.93186372745491, 2.937875751503006, 2.943887775551102, 2.9498997995991982, 2.9559118236472948, 2.961923847695391, 2.967935871743487, 2.973947895791583, 2.979959919839679, 2.9859719438877756, 2.9919839679358717, 2.997995991983968, 3.0040080160320644, 3.0100200400801604, 3.0160320641282565, 3.0220440881763526, 3.0280561122244487, 3.034068136272545, 3.0400801603206413, 3.0460921843687374, 3.052104208416834, 3.05811623246493, 3.064128256513026, 3.070140280561122, 3.0761523046092183, 3.0821643286573144, 3.088176352705411, 3.094188376753507, 3.1002004008016035, 3.1062124248496996, 3.1122244488977957, 3.118236472945892, 3.124248496993988, 3.130260521042084, 3.13627254509018, 3.1422845691382766, 3.1482965931863727, 3.154308617234469, 3.1603206412825653, 3.1663326653306614, 3.1723446893787575, 3.1783567134268536, 3.1843687374749496, 3.190380761523046, 3.1963927855711423, 3.202404809619239, 3.208416833667335, 3.214428857715431, 3.220440881763527, 3.226452905811623, 3.2324649298597192, 3.2384769539078153, 3.244488977955912, 3.250501002004008, 3.2565130260521045, 3.2625250501002006, 3.2685370741482966, 3.2745490981963927, 3.280561122244489, 3.286573146292585, 3.2925851703406814, 3.2985971943887775, 3.304609218436874, 3.31062124248497, 3.3166332665330662, 3.3226452905811623, 3.3286573146292584, 3.3346693386773545, 3.3406813627254506, 3.346693386773547, 3.352705410821643, 3.3587174348697397, 3.364729458917836, 3.370741482965932, 3.376753507014028, 3.382765531062124, 3.38877755511022, 3.3947895791583167, 3.400801603206413, 3.4068136272545093, 3.4128256513026054, 3.4188376753507015, 3.4248496993987976, 3.4308617234468937, 3.4368737474949898, 3.4428857715430863, 3.4488977955911824, 3.4549098196392785, 3.460921843687375, 3.466933867735471, 3.472945891783567, 3.4789579158316633, 3.4849699398797593, 3.4909819639278554, 3.496993987975952, 3.503006012024048, 3.5090180360721446, 3.5150300601202407, 3.5210420841683367, 3.527054108216433, 3.533066132264529, 3.539078156312625, 3.5450901803607215, 3.5511022044088176, 3.5571142284569137, 3.5631262525050102, 3.5691382765531063, 3.5751503006012024, 3.5811623246492985, 3.5871743486973946, 3.5931863727454907, 3.599198396793587, 3.6052104208416833, 3.61122244488978, 3.617234468937876, 3.623246492985972, 3.629258517034068, 3.635270541082164, 3.6412825651302603, 3.647294589178357, 3.653306613226453, 3.6593186372745494, 3.6653306613226455, 3.6713426853707416, 3.6773547094188377, 3.6833667334669338, 3.68937875751503, 3.695390781563126, 3.7014028056112225, 3.7074148296593186, 3.713426853707415, 3.719438877755511, 3.7254509018036073, 3.7314629258517034, 3.7374749498997994, 3.7434869739478955, 3.749498997995992, 3.755511022044088, 3.7615230460921847, 3.7675350701402808, 3.773547094188377, 3.779559118236473, 3.785571142284569, 3.791583166332665, 3.797595190380761, 3.8036072144288577, 3.809619238476954, 3.8156312625250504, 3.8216432865731464, 3.8276553106212425, 3.8336673346693386, 3.8396793587174347, 3.845691382765531, 3.8517034068136273, 3.8577154308617234, 3.86372745490982, 3.869739478957916, 3.875751503006012, 3.881763527054108, 3.8877755511022043, 3.8937875751503004, 3.8997995991983965, 3.905811623246493, 3.911823647294589, 3.9178356713426856, 3.9238476953907817, 3.929859719438878, 3.935871743486974, 3.94188376753507, 3.947895791583166, 3.9539078156312626, 3.9599198396793587, 3.965931863727455, 3.9719438877755513, 3.9779559118236474, 3.9839679358717435, 3.9899799599198396, 3.9959919839679356, 4.002004008016032, 4.008016032064129, 4.014028056112224, 4.020040080160321, 4.026052104208417, 4.032064128256513, 4.038076152304609, 4.044088176352705, 4.050100200400802, 4.056112224448897, 4.062124248496994, 4.06813627254509, 4.074148296593187, 4.080160320641283, 4.086172344689379, 4.092184368737475, 4.098196392785571, 4.104208416833668, 4.110220440881763, 4.11623246492986, 4.122244488977955, 4.128256513026052, 4.134268537074148, 4.140280561122244, 4.1462925851703405, 4.152304609218437, 4.158316633266534, 4.164328657314629, 4.170340681362726, 4.176352705410822, 4.182364729458918, 4.188376753507014, 4.19438877755511, 4.200400801603207, 4.206412825651302, 4.212424849699399, 4.218436873747494, 4.224448897795591, 4.2304609218436875, 4.236472945891784, 4.24248496993988, 4.248496993987976, 4.254509018036073, 4.260521042084168, 4.266533066132265, 4.27254509018036, 4.278557114228457, 4.284569138276553, 4.290581162324649, 4.296593186372745, 4.302605210420841, 4.308617234468938, 4.314629258517034, 4.320641282565131, 4.326653306613227, 4.332665330661323, 4.338677354709419, 4.344689378757515, 4.350701402805611, 4.356713426853707, 4.362725450901804, 4.368737474949899, 4.374749498997996, 4.380761523046092, 4.386773547094188, 4.3927855711422845, 4.398797595190381, 4.404809619238478, 4.410821643286573, 4.41683366733467, 4.422845691382765, 4.428857715430862, 4.434869739478958, 4.440881763527054, 4.44689378757515, 4.452905811623246, 4.458917835671343, 4.4649298597194385, 4.470941883767535, 4.476953907815631, 4.482965931863728, 4.488977955911824, 4.49498997995992, 4.501002004008016, 4.507014028056112, 4.513026052104209, 4.519038076152304, 4.525050100200401, 4.531062124248497, 4.537074148296593, 4.543086172344689, 4.5490981963927855, 4.555110220440882, 4.561122244488978, 4.567134268537075, 4.57314629258517, 4.579158316633267, 4.585170340681363, 4.591182364729459, 4.597194388777555, 4.603206412825651, 4.609218436873748, 4.615230460921843, 4.62124248496994, 4.6272545090180355, 4.6332665330661325, 4.6392785571142285, 4.645290581162325, 4.651302605210421, 4.657314629258517, 4.663326653306614, 4.669338677354709, 4.675350701402806, 4.681362725450901, 4.687374749498998, 4.693386773547094, 4.69939879759519, 4.705410821643286, 4.7114228456913825, 4.7174348697394795, 4.723446893787575, 4.729458917835672, 4.735470941883768, 4.741482965931864, 4.74749498997996, 4.753507014028056, 4.759519038076153, 4.765531062124248, 4.771543086172345, 4.77755511022044, 4.783567134268537, 4.789579158316633, 4.7955911823647295, 4.801603206412826, 4.807615230460922, 4.813627254509019, 4.819639278557114, 4.825651302605211, 4.831663326653306, 4.837675350701403, 4.843687374749499, 4.849699398797595, 4.855711422845691, 4.861723446893787, 4.867735470941884, 4.8737474949899795, 4.8797595190380765, 4.885771543086173, 4.891783567134269, 4.897795591182365, 4.903807615230461, 4.909819639278557, 4.915831663326653, 4.92184368737475, 4.927855711422845, 4.933867735470942, 4.939879759519038, 4.945891783567134, 4.95190380761523, 4.9579158316633265, 4.9639278557114235, 4.969939879759519, 4.975951903807616, 4.981963927855711, 4.987975951903808, 4.993987975951904, 5.0])
+              .range(['#90ee90ff', '#91ef8fff', '#91ef8eff', '#92ef8dff', '#93ef8dff', '#93ef8cff', '#94ef8bff', '#95ef8aff', '#95ef89ff', '#96ef88ff', '#97ef87ff', '#97f087ff', '#98f086ff', '#99f085ff', '#99f084ff', '#9af083ff', '#9bf082ff', '#9bf081ff', '#9cf080ff', '#9df080ff', '#9df07fff', '#9ef17eff', '#9ff17dff', '#9ff17cff', '#a0f17bff', '#a1f17aff', '#a1f179ff', '#a2f179ff', '#a3f178ff', '#a3f177ff', '#a4f276ff', '#a5f275ff', '#a6f274ff', '#a6f273ff', '#a7f273ff', '#a8f272ff', '#a8f271ff', '#a9f270ff', '#aaf26fff', '#aaf26eff', '#abf36dff', '#acf36cff', '#acf36cff', '#adf36bff', '#aef36aff', '#aef369ff', '#aff368ff', '#b0f367ff', '#b0f366ff', '#b1f365ff', '#b2f465ff', '#b2f464ff', '#b3f463ff', '#b4f462ff', '#b4f461ff', '#b5f460ff', '#b6f45fff', '#b6f45fff', '#b7f45eff', '#b8f45dff', '#b8f55cff', '#b9f55bff', '#baf55aff', '#baf559ff', '#bbf558ff', '#bcf558ff', '#bcf557ff', '#bdf556ff', '#bef555ff', '#bef654ff', '#bff653ff', '#c0f652ff', '#c0f651ff', '#c1f651ff', '#c2f650ff', '#c2f64fff', '#c3f64eff', '#c4f64dff', '#c4f64cff', '#c5f74bff', '#c6f74bff', '#c6f74aff', '#c7f749ff', '#c8f748ff', '#c8f747ff', '#c9f746ff', '#caf745ff', '#caf744ff', '#cbf744ff', '#ccf843ff', '#ccf842ff', '#cdf841ff', '#cef840ff', '#cef83fff', '#cff83eff', '#d0f83dff', '#d0f83dff', '#d1f83cff', '#d2f83bff', '#d2f93aff', '#d3f939ff', '#d4f938ff', '#d4f937ff', '#d5f937ff', '#d6f936ff', '#d6f935ff', '#d7f934ff', '#d8f933ff', '#d8fa32ff', '#d9fa31ff', '#dafa30ff', '#dafa30ff', '#dbfa2fff', '#dcfa2eff', '#dcfa2dff', '#ddfa2cff', '#defa2bff', '#defa2aff', '#dffb2aff', '#e0fb29ff', '#e0fb28ff', '#e1fb27ff', '#e2fb26ff', '#e2fb25ff', '#e3fb24ff', '#e4fb23ff', '#e4fb23ff', '#e5fb22ff', '#e6fc21ff', '#e6fc20ff', '#e7fc1fff', '#e8fc1eff', '#e8fc1dff', '#e9fc1cff', '#eafc1cff', '#ebfc1bff', '#ebfc1aff', '#ecfc19ff', '#edfd18ff', '#edfd17ff', '#eefd16ff', '#effd16ff', '#effd15ff', '#f0fd14ff', '#f1fd13ff', '#f1fd12ff', '#f2fd11ff', '#f3fe10ff', '#f3fe0fff', '#f4fe0fff', '#f5fe0eff', '#f5fe0dff', '#f6fe0cff', '#f7fe0bff', '#f7fe0aff', '#f8fe09ff', '#f9fe08ff', '#f9ff08ff', '#faff07ff', '#fbff06ff', '#fbff05ff', '#fcff04ff', '#fdff03ff', '#fdff02ff', '#feff02ff', '#ffff01ff', '#ffff00ff', '#ffff00ff', '#ffff00ff', '#fffe00ff', '#fffe00ff', '#fffd00ff', '#fffc00ff', '#fffc00ff', '#fffb00ff', '#fffb00ff', '#fffa00ff', '#fffa00ff', '#fff900ff', '#fff900ff', '#fff800ff', '#fff800ff', '#fff700ff', '#fff600ff', '#fff600ff', '#fff500ff', '#fff500ff', '#fff400ff', '#fff400ff', '#fff300ff', '#fff300ff', '#fff200ff', '#fff200ff', '#fff100ff', '#fff000ff', '#fff000ff', '#ffef00ff', '#ffef00ff', '#ffee00ff', '#ffee00ff', '#ffed00ff', '#ffed00ff', '#ffec00ff', '#ffec00ff', '#ffeb00ff', '#ffea00ff', '#ffea00ff', '#ffe900ff', '#ffe900ff', '#ffe800ff', '#ffe800ff', '#ffe700ff', '#ffe700ff', '#ffe600ff', '#ffe600ff', '#ffe500ff', '#ffe500ff', '#ffe400ff', '#ffe300ff', '#ffe300ff', '#ffe200ff', '#ffe200ff', '#ffe100ff', '#ffe100ff', '#ffe000ff', '#ffe000ff', '#ffdf00ff', '#ffdf00ff', '#ffde00ff', '#ffdd00ff', '#ffdd00ff', '#ffdc00ff', '#ffdc00ff', '#ffdb00ff', '#ffdb00ff', '#ffda00ff', '#ffda00ff', '#ffd900ff', '#ffd900ff', '#ffd800ff', '#ffd700ff', '#ffd700ff', '#ffd600ff', '#ffd600ff', '#ffd500ff', '#ffd500ff', '#ffd400ff', '#ffd400ff', '#ffd300ff', '#ffd300ff', '#ffd200ff', '#ffd200ff', '#ffd100ff', '#ffd000ff', '#ffd000ff', '#ffcf00ff', '#ffcf00ff', '#ffce00ff', '#ffce00ff', '#ffcd00ff', '#ffcd00ff', '#ffcc00ff', '#ffcc00ff', '#ffcb00ff', '#ffca00ff', '#ffca00ff', '#ffc900ff', '#ffc900ff', '#ffc800ff', '#ffc800ff', '#ffc700ff', '#ffc700ff', '#ffc600ff', '#ffc600ff', '#ffc500ff', '#ffc400ff', '#ffc400ff', '#ffc300ff', '#ffc300ff', '#ffc200ff', '#ffc200ff', '#ffc100ff', '#ffc100ff', '#ffc000ff', '#ffc000ff', '#ffbf00ff', '#ffbe00ff', '#ffbe00ff', '#ffbd00ff', '#ffbd00ff', '#ffbc00ff', '#ffbc00ff', '#ffbb00ff', '#ffbb00ff', '#ffba00ff', '#ffba00ff', '#ffb900ff', '#ffb900ff', '#ffb800ff', '#ffb700ff', '#ffb700ff', '#ffb600ff', '#ffb600ff', '#ffb500ff', '#ffb500ff', '#ffb400ff', '#ffb400ff', '#ffb300ff', '#ffb300ff', '#ffb200ff', '#ffb100ff', '#ffb100ff', '#ffb000ff', '#ffb000ff', '#ffaf00ff', '#ffaf00ff', '#ffae00ff', '#ffae00ff', '#ffad00ff', '#ffad00ff', '#ffac00ff', '#ffab00ff', '#ffab00ff', '#ffaa00ff', '#ffaa00ff', '#ffa900ff', '#ffa900ff', '#ffa800ff', '#ffa800ff', '#ffa700ff', '#ffa700ff', '#ffa600ff', '#ffa600ff', '#ffa500ff', '#ffa400ff', '#ffa300ff', '#ffa200ff', '#ffa100ff', '#ffa000ff', '#ff9f00ff', '#ff9e00ff', '#ff9d00ff', '#ff9c00ff', '#ff9b00ff', '#ff9a00ff', '#ff9900ff', '#ff9800ff', '#ff9700ff', '#ff9600ff', '#ff9500ff', '#ff9400ff', '#ff9300ff', '#ff9200ff', '#ff9100ff', '#ff9000ff', '#ff8f00ff', '#ff8e00ff', '#ff8d00ff', '#ff8c00ff', '#ff8b00ff', '#ff8a00ff', '#ff8900ff', '#ff8800ff', '#ff8700ff', '#ff8600ff', '#ff8500ff', '#ff8400ff', '#ff8300ff', '#ff8200ff', '#ff8100ff', '#ff8000ff', '#ff7f00ff', '#ff7e00ff', '#ff7d00ff', '#ff7c00ff', '#ff7b00ff', '#ff7a00ff', '#ff7900ff', '#ff7800ff', '#ff7700ff', '#ff7600ff', '#ff7500ff', '#ff7400ff', '#ff7300ff', '#ff7200ff', '#ff7100ff', '#ff7000ff', '#ff6f00ff', '#ff6e00ff', '#ff6d00ff', '#ff6c00ff', '#ff6b00ff', '#ff6a00ff', '#ff6900ff', '#ff6800ff', '#ff6700ff', '#ff6600ff', '#ff6500ff', '#ff6400ff', '#ff6300ff', '#ff6200ff', '#ff6100ff', '#ff6000ff', '#ff5f00ff', '#ff5e00ff', '#ff5d00ff', '#ff5c00ff', '#ff5b00ff', '#ff5a00ff', '#ff5900ff', '#ff5800ff', '#ff5700ff', '#ff5600ff', '#ff5500ff', '#ff5400ff', '#ff5300ff', '#ff5200ff', '#ff5100ff', '#ff5000ff', '#ff4f00ff', '#ff4e00ff', '#ff4d00ff', '#ff4c00ff', '#ff4b00ff', '#ff4a00ff', '#ff4900ff', '#ff4800ff', '#ff4700ff', '#ff4600ff', '#ff4500ff', '#ff4400ff', '#ff4300ff', '#ff4200ff', '#ff4100ff', '#ff4000ff', '#ff3f00ff', '#ff3e00ff', '#ff3d00ff', '#ff3c00ff', '#ff3b00ff', '#ff3a00ff', '#ff3900ff', '#ff3800ff', '#ff3700ff', '#ff3600ff', '#ff3500ff', '#ff3400ff', '#ff3300ff', '#ff3200ff', '#ff3100ff', '#ff3000ff', '#ff2f00ff', '#ff2e00ff', '#ff2d00ff', '#ff2c00ff', '#ff2b00ff', '#ff2a00ff', '#ff2900ff', '#ff2800ff', '#ff2700ff', '#ff2600ff', '#ff2500ff', '#ff2400ff', '#ff2300ff', '#ff2200ff', '#ff2100ff', '#ff2000ff', '#ff1f00ff', '#ff1e00ff', '#ff1d00ff', '#ff1c00ff', '#ff1b00ff', '#ff1a00ff', '#ff1900ff', '#ff1800ff', '#ff1700ff', '#ff1600ff', '#ff1500ff', '#ff1400ff', '#ff1300ff', '#ff1200ff', '#ff1100ff', '#ff1000ff', '#ff0f00ff', '#ff0e00ff', '#ff0d00ff', '#ff0c00ff', '#ff0b00ff', '#ff0a00ff', '#ff0900ff', '#ff0800ff', '#ff0700ff', '#ff0600ff', '#ff0500ff', '#ff0400ff', '#ff0300ff', '#ff0200ff', '#ff0100ff', '#ff0000ff', '#ff0000ff']);
+    
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.x = d3.scale.linear()
+              .domain([2.0, 5.0])
+              .range([0, 450 - 50]);
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.legend = L.control({position: 'topright'});
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.legend.addTo(map_d08933fc29c4c783b9470ce7217c81d3);
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.xAxis = d3.svg.axis()
+        .scale(color_map_9a83087d8488cc26fe0ba94787b7eb08.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([2.0, 3.0, 4.0, 5.0]);
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.g = color_map_9a83087d8488cc26fe0ba94787b7eb08.svg.append("g")
+        .attr("class", "key")
+        .attr("fill", "black")
+        .attr("transform", "translate(25,16)");
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.g.selectAll("rect")
+        .data(color_map_9a83087d8488cc26fe0ba94787b7eb08.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_9a83087d8488cc26fe0ba94787b7eb08.x(color_map_9a83087d8488cc26fe0ba94787b7eb08.color.domain()[i - 1]) : color_map_9a83087d8488cc26fe0ba94787b7eb08.x.range()[0],
+            x1: i < color_map_9a83087d8488cc26fe0ba94787b7eb08.color.domain().length ? color_map_9a83087d8488cc26fe0ba94787b7eb08.x(color_map_9a83087d8488cc26fe0ba94787b7eb08.color.domain()[i]) : color_map_9a83087d8488cc26fe0ba94787b7eb08.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_9a83087d8488cc26fe0ba94787b7eb08.g.call(color_map_9a83087d8488cc26fe0ba94787b7eb08.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .attr("fill", "black")
+        .text("Total Zones (Fire + Police)");
+</script>
+</html>
